@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara-Shop</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    
+    <link rel="stylesheet" href="style.css">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css"  />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section id="header">
+        <a class="logo"><img src="assets/logo.png"></a>     
+            <ul id="navbar">
+                <a href="#" id="close"><i class="fa fa-close"></i></a>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="shop.html">Shop</a></li>
+               <li><a href="blog.html">Blog</a></li>
+               <li><a  href="about.html">About</a></li>
+               <li><a  href="contact.html">Contact</a></li>
+               <li  id="lg-bag"><a class="active" href="cart.html"><i class="fa fa-solid fa-cart-shopping"></i></a></li>           
+            </ul>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fa fa-solid fa-bars"></i>
+            </div>
+    </section>
+    <section id="page-header" class="about-header">
+        <h2>Cart</h2>
+        <p>Items you ordered wil find Here</p>   
+    </section>
+    <hr>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>Remove</th>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>SubTotal</th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr>
+                    <td><i class="fa fa-close"></i></td>
+                    <td><img src="assets/products/f1.jpg"></td>
+                    <td>Cartoon shirts</td>
+                    <td>850</td>
+                    <td><input type="number" value="1"></td>
+                    <td>850</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-close"></i></td>
+                    <td><img src="assets/products/f4.jpg"></td>
+                    <td>White shirt</td>
+                    <td>1550</td>
+                    <td><input type="number" value="1"></td>
+                    <td>1550</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-close"></i></td>
+                    <td><img src="assets/products/f6.jpg"></td>
+                    <td>hasi shirt</td>
+                    <td>2100</td>
+                    <td><input type="number" value="1"></td>
+                    <td>2100</td>
+                </tr>
+            </tbody>
+        </table>     
+    </section>
+    <section id="addcart" class="section-p1 section-m1">
+        <div class="coupon">
+            <h3>Apply Coupon Code</h3>
+            <div>
+                <input type="text" placeholder="Enter your coupon code">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+       <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>4560</td>
+                </tr>
+                <tr>
+                    <td>Discount</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Shipping Fee</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td>4620</td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="normal">Proceed to Checkout</button>
+       </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="assets/logo.png">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>354 Ladan nagar road,Backbose street,Mumbai</p>
+            <p><strong>Phone: </strong>+91 9765237547/+91 9765237548</p>
+            <p><strong>Working Hours: </strong>9:00 AM to 7:00PM</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-youtube"></i>
+                    <i class="fa fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign up</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App store or Google Play</p>
+            <div class="row">
+                <img src="assets/pay/app.jpg" alt="">
+                <img src="assets/pay/play.jpg" alt="">
+            </div>  
+            <p>Secured Payment Gateways</p>
+            <img src="assets/pay/pay.png" alt="">
+        </div>
+        <div class="copy">
+            <span>copyright@2023caracollections</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
